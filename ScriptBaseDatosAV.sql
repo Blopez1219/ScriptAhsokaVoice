@@ -90,5 +90,5 @@ ALTER TABLE IF EXISTS public.logro
     REFERENCES public.usuario (idusuario) MATCH SIMPLE
     ON UPDATE NO ACTION
     ON DELETE NO ACTION;
- v
+ 
 END;
